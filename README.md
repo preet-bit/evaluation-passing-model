@@ -70,3 +70,12 @@ Based on a $50,000 IQ Capital / Topstep account limit:
 *   **Projected Time to Pass:** 11 to 14 Trading Days
 
 *Disclaimer: Algorithmic trading carries inherent risk. Past performance in backtests does not guarantee future results in live execution. Manage your margin responsibly.*
+
+
+## ?? Acknowledgments & Credits
+
+This repository relies on the incredible open-source architecture provided by **[Nautilus Trader](https://github.com/naurc/nautilus_trader)**. 
+
+Nautilus Trader is a high-performance algorithmic trading platform written in Rust. It is the only open-source framework capable of processing the sub-millisecond Level 2 Order Book events required to mathematically execute this strategy without the slippage found in basic retail platforms. 
+
+Full credit for the core execution framework goes to the Nautilus Trader team. If you are building institutional-grade quantitative infrastructure, you should support their project.
